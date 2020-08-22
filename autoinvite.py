@@ -3,7 +3,7 @@ import time
 from helium import *
 def invite(link,username,password,x):
     r = requests.get('https://api.chess.com/pub/club/chess-university/members')
-    members = r.json()['weekly'][x:x+30]        
+    members = r.json()['all_time'][x:x+30]        
     invitelist = []
     for i in members:
         invitelist.append(i['username'])
