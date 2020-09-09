@@ -1,0 +1,16 @@
+{
+    "username":"yourusername",
+    "password":"yourpassword",
+    "path":"yourpathtochromedriver",
+    "apilink":"https://api.chess.com/pub/club/chess-university/members",
+    "timeframe":"weekly",
+    "number":0,
+    "invitelist":[
+        {"clubname":"clubname1","invitelink":"https://www.chess.com/clubs/158550/members/invite"},
+        {"clubname":"clubname2","invitelink":"https://www.chess.com/clubs/163470/members/invite"},
+        {"clubname":"clubname3","invitelink":"https://www.chess.com/clubs/122194/members/invite"},
+        {"clubname":"clubname4","invitelink":"https://www.chess.com/clubs/150266/members/invite"},
+        {"clubname":"clubname5","invitelink":"https://www.chess.com/clubs/125832/members/invite"},
+        {"clubname":"clubname6","invitelink":"https://www.chess.com/clubs/169316/members/invite"}    
+    ]
+}
